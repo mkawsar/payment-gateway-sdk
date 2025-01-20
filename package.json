@@ -1,0 +1,29 @@
+{
+	"name": "payment-gateway-sdk",
+	"version": "1.0.0",
+	"description": "A Node.js SDK for integrating multiple payment gateways like Stripe and PayPal.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "jest"
+	},
+	"keywords": [
+		"payment",
+		"stripe",
+		"paypal",
+		"sdk"
+	],
+	"author": "mkawsar",
+	"license": "MIT",
+	"dependencies": {
+		"paypal-rest-sdk": "^1.8.1",
+		"stripe": "^17.5.0"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"typescript": "^5.7.3"
+	}
+}
